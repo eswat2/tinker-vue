@@ -4,15 +4,8 @@
   </span>
 </template>
 
-<script>
+<script setup>
 import { TW_VERSION } from "../utils"
 
-export default {
-  name: "tw-label",
-  data() {
-    return {
-      version: TW_VERSION,
-    }
-  },
-}
+const version = TW_VERSION
 </script>

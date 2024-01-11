@@ -14,21 +14,19 @@
   </svg>
 </template>
 
-<script>
-export default {
-  props: {
-    hex: {
-      type: String,
-      default: "currentColor",
-    },
-    selected: {
-      type: Boolean,
-      default: false,
-    },
-    size: {
-      type: Number,
-      default: 24,
-    },
+<script setup>
+const props = defineProps({
+  hex: {
+    type: String,
+    default: "currentColor",
   },
-}
+  selected: {
+    type: Boolean,
+    default: false,
+  },
+  size: {
+    type: [Number, String],
+    default: 24,
+  },
+})
 </script>

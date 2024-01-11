@@ -1,13 +1,9 @@
 import { createApp } from "vue"
-import Vuex from "vuex"
-
+import { createPinia } from "pinia"
 import App from "./App.vue"
-import { storeDefs } from "./utils"
 
-const store = new Vuex.Store({
-  modules: {
-    app: storeDefs,
-  },
-})
+const pinia = createPinia()
+const app = createApp(App)
 
-createApp(App).use(store).mount("#app")
+app.use(pinia)
+app.mount("#app")

@@ -26,29 +26,18 @@
   </div>
 </template>
 
-<script>
+<script setup>
+import { computed } from "vue"
+import { useTinkerStore } from "../stores"
+
 import ChevronDoubleLeft from "./icons/ChevronDoubleLeft.vue"
 import Close from "./icons/Close.vue"
 import Refresh from "./icons/Refresh.vue"
 
-export default {
-  components: {
-    ChevronDoubleLeft,
-    Close,
-    Refresh,
-  },
-  computed: {
-    count() {
-      return this.$store.state.app.count
-    },
-  },
-  methods: {
-    handleClear: function () {
-      this.$store.dispatch("reset")
-    },
-    handleClick: function () {
-      this.$store.dispatch("refresh")
-    },
-  },
-}
+const store = useTinkerStore()
+
+const count = computed(() => store.count)
+
+const handleClear = () => store.reset()
+const handleClick = () => store.refresh()
 </script>

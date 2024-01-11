@@ -9,19 +9,9 @@
   </a>
 </template>
 
-<script>
+<script setup>
 import Fingerprint from "./icons/Fingerprint.vue"
 
-export default {
-  name: "eswat2",
-  data() {
-    return {
-      url: "https://eswat2.github.io",
-      who: "eswat2",
-    }
-  },
-  components: {
-    Fingerprint,
-  },
-}
+const url = "https://eswat2.github.io"
+const who = "eswat2"
 </script>

@@ -16,23 +16,15 @@
   </div>
 </template>
 
-<script>
+<script setup>
+import { computed } from "vue"
+import { useTinkerStore } from "../stores"
+
 import TwLabel from "./TwLabel.vue"
 
-export default {
-  computed: {
-    count() {
-      return this.$store.state.app.count
-    },
-    pick() {
-      return this.$store.state.app.color
-    },
-    values() {
-      return this.$store.state.app.values
-    },
-  },
-  components: {
-    TwLabel,
-  },
-}
+const store = useTinkerStore()
+
+const count = computed(() => store.count)
+const pick = computed(() => store.color)
+const values = computed(() => store.values)
 </script>

@@ -12,13 +12,13 @@
     "eswat",
     "lerp",
     "pcss",
+    "pinia",
     "predeploy",
     "tailwindcss",
     "valpha",
     "vercel",
     "vite",
-    "vitejs",
-    "vuex"
+    "vitejs"
   ],
   "ignorePaths": [
     "cSpell.json",

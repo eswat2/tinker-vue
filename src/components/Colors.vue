@@ -8,23 +8,10 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import ColorPick from "./ColorPick.vue"
 import { colorNames } from "../utils"
 
-export default {
-  data() {
-    return {
-      keys: colorNames,
-    }
-  },
-  components: {
-    ColorPick,
-  },
-  methods: {
-    keyFor(indx) {
-      return `pick-${indx}`
-    },
-  },
-}
+const keys = colorNames
+const keyFor = (indx) => `pick-${indx}`
 </script>

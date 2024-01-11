@@ -4,29 +4,18 @@
   </div>
 </template>
 
-<script>
+<script setup>
+import { computed } from "vue"
 import Radio from "./icons/Radio.vue"
+import { useTinkerStore } from "../stores"
 import { namedColors } from "../utils"
 
-export default {
-  components: {
-    Radio,
-  },
-  computed: {
-    hex() {
-      return namedColors[this.value]
-    },
-    selected() {
-      return this.value === this.$store.state.app.color
-    },
-  },
-  methods: {
-    pick() {
-      this.$store.dispatch("colorPick", { color: this.value })
-    },
-  },
-  props: {
-    value: String,
-  },
-}
+const store = useTinkerStore()
+
+const props = defineProps({
+  value: String,
+})
+const hex = computed(() => namedColors[props.value])
+const selected = computed(() => props.value === store.color)
+const pick = () => store.colorPick(props.value)
 </script>
