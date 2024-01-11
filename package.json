@@ -1,0 +1,62 @@
+{
+  "name": "tinker-vue",
+  "version": "0.1.0",
+  "description": "secret",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"yarn:twx --watch\" \"yarn:start\"",
+    "twx": "sh ./.generate",
+    "start": "vite",
+    "build": "yarn twx; yarn format; vite build",
+    "serve": "vite preview",
+    "test": "echo skipping...",
+    "cc": "prettier --check './src/**/*.{css,pcss,js,vue}'",
+    "format": "prettier --write './src/**/*.{css,pcss,js,vue}'",
+    "spell": "cspell './**/*.{js,vue}'",
+    "predeploy": "yarn build",
+    "deploy": "cd dist; ln -s ../.now .vercel; vc --prod",
+    "open": "open https://tinker-vue.vercel.app"
+  },
+  "dependencies": {
+    "core-js": "3.35.0",
+    "vue": "3.4.10",
+    "vuex": "next"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "5.0.3",
+    "autoprefixer": "10.4.16",
+    "concurrently": "8.2.2",
+    "cspell": "8.3.2",
+    "postcss": "8.4.33",
+    "prettier": "3.1.1",
+    "prettier-plugin-tailwindcss": "0.5.11",
+    "proto-tailwindcss-clrs": "0.0.303",
+    "tailwindcss": "3.4.1",
+    "vite": "5.0.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true,
+      "jest": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
