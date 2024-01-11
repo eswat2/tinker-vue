@@ -1,6 +1,6 @@
 {
   "name": "tinker-vue",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "secret",
   "private": true,
   "type": "module",
@@ -14,7 +14,7 @@
     "cc": "prettier --check './src/**/*.{css,pcss,js,vue}'",
     "format": "prettier --write './src/**/*.{css,pcss,js,vue}'",
     "spell": "cspell './**/*.{js,vue}'",
-    "predeploy": "yarn build",
+    "predeploy": "yarn version --patch; yarn build",
     "deploy": "cd dist; ln -s ../.now .vercel; vc --prod",
     "open": "open https://tinker-vue.vercel.app"
   },
