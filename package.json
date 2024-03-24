@@ -33,7 +33,7 @@
     "prettier-plugin-tailwindcss": "0.5.12",
     "proto-tailwindcss-clrs": "0.0.317",
     "tailwindcss": "3.4.1",
-    "vite": "5.2.4"
+    "vite": "5.2.6"
   },
   "eslintConfig": {
     "root": true,
