@@ -21,7 +21,7 @@
   "dependencies": {
     "core-js": "3.37.0",
     "pinia": "2.1.7",
-    "vue": "3.4.25"
+    "vue": "3.4.26"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "5.0.4",
@@ -31,7 +31,7 @@
     "postcss": "8.4.38",
     "prettier": "3.2.5",
     "prettier-plugin-tailwindcss": "0.5.14",
-    "proto-tailwindcss-clrs": "0.0.330",
+    "proto-tailwindcss-clrs": "0.0.331",
     "tailwindcss": "3.4.3",
     "vite": "5.2.10"
   },
