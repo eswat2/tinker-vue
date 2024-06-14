@@ -21,7 +21,7 @@
   "dependencies": {
     "core-js": "3.37.1",
     "pinia": "2.1.7",
-    "vue": "3.4.27"
+    "vue": "3.4.28"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "5.0.5",
@@ -33,7 +33,7 @@
     "prettier-plugin-tailwindcss": "0.6.4",
     "proto-tailwindcss-clrs": "0.0.334",
     "tailwindcss": "3.4.4",
-    "vite": "5.3.0"
+    "vite": "5.3.1"
   },
   "eslintConfig": {
     "root": true,
