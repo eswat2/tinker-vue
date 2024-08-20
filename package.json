@@ -19,7 +19,7 @@
     "open": "open https://tinker-vue.vercel.app"
   },
   "dependencies": {
-    "core-js": "3.38.0",
+    "core-js": "3.38.1",
     "pinia": "2.2.2",
     "vue": "3.4.38"
   },
@@ -27,13 +27,13 @@
     "@vitejs/plugin-vue": "5.1.2",
     "autoprefixer": "10.4.20",
     "concurrently": "8.2.2",
-    "cspell": "8.14.1",
+    "cspell": "8.14.2",
     "postcss": "8.4.41",
     "prettier": "3.3.3",
     "prettier-plugin-tailwindcss": "0.6.6",
     "proto-tailwindcss-clrs": "0.0.350",
     "tailwindcss": "3.4.10",
-    "vite": "5.4.1"
+    "vite": "5.4.2"
   },
   "eslintConfig": {
     "root": true,
