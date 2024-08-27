@@ -1,5 +1,11 @@
 <template>
-  <div :aria-label="value" :title="value" @click="pick" role="radio">
+  <div
+    :aria-checked="selected"
+    :aria-label="value"
+    :title="value"
+    @click="pick"
+    role="radio"
+  >
     <Radio :hex="hex" :selected="selected" />
   </div>
 </template>
