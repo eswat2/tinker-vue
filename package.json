@@ -21,13 +21,13 @@
   "dependencies": {
     "core-js": "3.38.1",
     "pinia": "2.2.4",
-    "vue": "3.5.11"
+    "vue": "3.5.12"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "5.1.4",
     "autoprefixer": "10.4.20",
     "concurrently": "9.0.1",
-    "cspell": "8.14.4",
+    "cspell": "8.15.0",
     "postcss": "8.4.47",
     "prettier": "3.3.3",
     "prettier-plugin-tailwindcss": "0.6.8",
