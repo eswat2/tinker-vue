@@ -27,15 +27,15 @@
     "vue": "3.5.13"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "5.2.3",
+    "@vitejs/plugin-vue": "5.2.4",
     "autoprefixer": "10.4.21",
     "concurrently": "9.1.2",
-    "cspell": "9.0.0",
+    "cspell": "9.0.1",
     "postcss": "8.5.3",
     "prettier": "3.5.3",
     "prettier-plugin-tailwindcss": "0.6.11",
     "proto-tailwindcss-clrs": "0.0.418",
-    "tailwindcss": "4.1.5",
+    "tailwindcss": "4.1.6",
     "vite": "6.3.5"
   },
   "eslintConfig": {
