@@ -27,14 +27,14 @@
     "vue": "3.5.18"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "6.0.0",
+    "@vitejs/plugin-vue": "6.0.1",
     "autoprefixer": "10.4.21",
     "concurrently": "9.2.0",
     "cspell": "9.2.0",
     "postcss": "8.5.6",
     "prettier": "3.6.2",
     "prettier-plugin-tailwindcss": "0.6.14",
-    "proto-tailwindcss-clrs": "0.0.429",
+    "proto-tailwindcss-clrs": "0.0.430",
     "tailwindcss": "4.1.11",
     "vite": "7.0.6"
   },
