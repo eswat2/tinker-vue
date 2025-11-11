@@ -5,7 +5,7 @@
   "private": true,
   "type": "module",
   "engines": {
-    "node": "22.x"
+    "node": ">=18"
   },
   "scripts": {
     "dev": "concurrently \"yarn:twx --watch\" \"yarn:start\"",
@@ -34,7 +34,7 @@
     "postcss": "8.5.6",
     "prettier": "3.6.2",
     "prettier-plugin-tailwindcss": "0.7.1",
-    "proto-tailwindcss-clrs": "0.0.451",
+    "proto-tailwindcss-clrs": "0.0.452",
     "tailwindcss": "4.1.17",
     "vite": "7.2.2"
   },
