@@ -24,7 +24,7 @@
   "dependencies": {
     "core-js": "3.47.0",
     "pinia": "3.0.4",
-    "vue": "3.5.25"
+    "vue": "3.5.26"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "6.0.3",
