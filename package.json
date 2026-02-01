@@ -1,6 +1,6 @@
 {
   "name": "tinker-vue",
-  "version": "0.1.362",
+  "version": "0.1.363",
   "description": "secret",
   "private": true,
   "type": "module",
@@ -9,7 +9,7 @@
   },
   "scripts": {
     "bump": "bumpp patch --commit --tag --push --yes",
-    "deploy-app": "cd dist; ln -s ../.vercel; vc --prod",
+    "deploy-app": "cd dist; ln -s ../.now .vercel; vc --prod",
     "release": "pnpm bump && pnpm build && pnpm deploy-app",
     "preinstall": "npx only-allow pnpm",
     "dev": "concurrently \"pnpm:twx --watch\" \"pnpm:start\"",
