@@ -1,6 +1,6 @@
 {
   "name": "tinker-vue",
-  "version": "0.1.366",
+  "version": "0.1.367",
   "description": "secret",
   "private": true,
   "type": "module",
@@ -40,7 +40,8 @@
     "prettier-plugin-tailwindcss": "0.7.2",
     "proto-tailwindcss-clrs": "0.0.464",
     "tailwindcss": "4.1.18",
-    "vite": "7.3.1"
+    "vite": "7.3.1",
+    "yoctocolors": "2.1.2"
   },
   "eslintConfig": {
     "root": true,
