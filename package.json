@@ -40,7 +40,7 @@
     "prettier-plugin-tailwindcss": "0.7.2",
     "proto-tailwindcss-clrs": "0.0.482",
     "tailwindcss": "4.2.2",
-    "vite": "8.0.5",
+    "vite": "8.0.7",
     "yoctocolors": "2.1.2"
   },
   "eslintConfig": {
