@@ -22,8 +22,8 @@ importers:
         specifier: 6.0.6
         version: 6.0.6(vite@8.0.8(esbuild@0.27.3)(jiti@2.6.1)(yaml@2.8.3))(vue@3.5.32)
       autoprefixer:
-        specifier: 10.4.27
-        version: 10.4.27(postcss@8.5.9)
+        specifier: 10.5.0
+        version: 10.5.0(postcss@8.5.9)
       bumpp:
         specifier: 11.0.1
         version: 11.0.1
@@ -46,8 +46,8 @@ importers:
         specifier: 0.7.2
         version: 0.7.2(prettier@3.8.2)
       proto-tailwindcss-clrs:
-        specifier: 0.0.483
-        version: 0.0.483
+        specifier: 0.0.484
+        version: 0.0.484
       tailwindcss:
         specifier: 4.2.2
         version: 4.2.2
@@ -658,8 +658,8 @@ packages:
   array-timsort@1.0.3:
     resolution: {integrity: sha512-/+3GRL7dDAGEfM6TseQk/U+mi18TU2Ms9I3UlLdUMhz2hbvGNTKdj9xniwXfUqgYhHxRx0+8UnKkvlNwVU+cWQ==}
 
-  autoprefixer@10.4.27:
-    resolution: {integrity: sha512-NP9APE+tO+LuJGn7/9+cohklunJsXWiaWEfV3si4Gi/XHDwVNgkwr1J3RQYFIvPy76GmJ9/bW8vyoU1LcxwKHA==}
+  autoprefixer@10.5.0:
+    resolution: {integrity: sha512-FMhOoZV4+qR6aTUALKX2rEqGG+oyATvwBt9IIzVR5rMa2HRWPkxf+P+PAJLD1I/H5/II+HuZcBJYEFBpq39ong==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
@@ -1072,8 +1072,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  proto-tailwindcss-clrs@0.0.483:
-    resolution: {integrity: sha512-loywa11dO+O7HYVnYrvVUDI84gkpq+WErP1hHY2J64rtlKUBWQz+0pPHfXvdGBotCx0zOzDGONOU9jZTBUAttQ==}
+  proto-tailwindcss-clrs@0.0.484:
+    resolution: {integrity: sha512-MEACrEiNVGs5CR8OQvEAUrkyw9u39Xqs2EZLt5UadNp2rov9gOIfCrWz6UX1SdRWnbKL6SDWafECzLO4jx2PTQ==}
     engines: {node: '>=18'}
 
   quansync@1.0.0:
@@ -1753,7 +1753,7 @@ snapshots:
 
   array-timsort@1.0.3: {}
 
-  autoprefixer@10.4.27(postcss@8.5.9):
+  autoprefixer@10.5.0(postcss@8.5.9):
     dependencies:
       browserslist: 4.28.2
       caniuse-lite: 1.0.30001787
@@ -2110,7 +2110,7 @@ snapshots:
 
   prettier@3.8.2: {}
 
-  proto-tailwindcss-clrs@0.0.483: {}
+  proto-tailwindcss-clrs@0.0.484: {}
 
   quansync@1.0.0: {}
 
