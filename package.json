@@ -29,7 +29,7 @@
     "vue": "3.5.34"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "6.0.6",
+    "@vitejs/plugin-vue": "6.0.7",
     "autoprefixer": "10.5.0",
     "bumpp": "11.1.0",
     "concurrently": "9.2.1",
@@ -38,7 +38,7 @@
     "postcss": "8.5.14",
     "prettier": "3.8.3",
     "prettier-plugin-tailwindcss": "0.8.0",
-    "proto-tailwindcss-clrs": "0.0.497",
+    "proto-tailwindcss-clrs": "0.0.498",
     "tailwindcss": "4.3.0",
     "vite": "8.0.13",
     "yoctocolors": "2.1.2"
