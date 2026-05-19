@@ -6,3 +6,7 @@ allowBuilds:
   'core-js': true
   'esbuild': true
   'proto-tailwindcss-clrs': true
+
+minimumReleaseAgeExclude:
+  - postcss@8.5.15
+  - proto-tailwindcss-clrs@0.0.499
