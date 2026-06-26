@@ -40,11 +40,11 @@ importers:
         specifier: 8.5.15
         version: 8.5.15
       prettier:
-        specifier: 3.8.4
-        version: 3.8.4
+        specifier: 3.8.5
+        version: 3.8.5
       prettier-plugin-tailwindcss:
         specifier: 0.8.0
-        version: 0.8.0(prettier@3.8.4)
+        version: 0.8.0(prettier@3.8.5)
       proto-tailwindcss-clrs:
         specifier: 0.0.510
         version: 0.0.510
@@ -455,14 +455,14 @@ packages:
   '@vue/compiler-ssr@3.5.39':
     resolution: {integrity: sha512-Ce7/wvwMHai74bdszfXExdazFigYnlF9zgCmEQUcM1j0fOymlouZ7XilTYNo8oUjhlnjYOZbGrcYKuqjz89Ucw==}
 
-  '@vue/devtools-api@7.7.9':
-    resolution: {integrity: sha512-kIE8wvwlcZ6TJTbNeU2HQNtaxLx3a84aotTITUuL/4bzfPxzajGBOoqjMhwZJ8L9qFYDU/lAYMEEm11dnZOD6g==}
+  '@vue/devtools-api@7.7.10':
+    resolution: {integrity: sha512-KxtEpUOOpFz/qOGRrAwA36QF7DqIA+FXgCYit9mk9wjbaZt0sXOFz81ElOZtKA4HbWHUdwNjZHBFsFFyp5BZiA==}
 
-  '@vue/devtools-kit@7.7.9':
-    resolution: {integrity: sha512-PyQ6odHSgiDVd4hnTP+aDk2X4gl2HmLDfiyEnn3/oV+ckFDuswRs4IbBT7vacMuGdwY/XemxBoh302ctbsptuA==}
+  '@vue/devtools-kit@7.7.10':
+    resolution: {integrity: sha512-3WNi2Kq4tbpVbmhml7RiphmAt0279oh3fKNeWMQIrltfX8Q91b4i5PL8DtyNKdwmcsGrV4fg+erwWOmD05CLIw==}
 
-  '@vue/devtools-shared@7.7.9':
-    resolution: {integrity: sha512-iWAb0v2WYf0QWmxCGy0seZNDPdO3Sp5+u78ORnyeonS6MT4PC7VPrryX2BpMJrwlDeaZ6BD4vP4XKjK0SZqaeA==}
+  '@vue/devtools-shared@7.7.10':
+    resolution: {integrity: sha512-wOPslzB8vTvpxwdaOcR2qAbwmuSP0L+rhpoC6Cf56V3Jip+HWb7PQQXOUPgBNQARpXsbQX/+mvi8kKucmBGRwQ==}
 
   '@vue/reactivity@3.5.39':
     resolution: {integrity: sha512-TpsuBJ9gGlZa5d23XcM2y8EXanz9dZeVDQBXRwzy46ItgvM+rWpzs+UVM0wcRLxGvcav0HE5jz2gNL53xlRAog==}
@@ -793,8 +793,8 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  node-releases@2.0.49:
-    resolution: {integrity: sha512-f06bl1D+8ZDkn2oOQQKAh5/otFWqVnM1Q5oerA8Pex7UfT66Tx4IPHIqVVFKqFT3FUtaDstdgkM7yT7JWhqxfw==}
+  node-releases@2.0.50:
+    resolution: {integrity: sha512-J6l92tKHX6w8Jy5nO1Vuc01NoIiRGi/d6qBKVxh+IQ8Cr3b6HbVNfKiF8ZpFKufTwpwxMmce2W3iQZ861ZRyTg==}
     engines: {node: '>=18'}
 
   only-allow@1.2.2:
@@ -885,8 +885,8 @@ packages:
       prettier-plugin-svelte:
         optional: true
 
-  prettier@3.8.4:
-    resolution: {integrity: sha512-N2MylSdi48+5N/6S5j+maeHbUSIzzZ5uOcX5Hm4QpV8Dkb1HFjfAKTKX6yNPJQD9AhcT3ifHNB66tWTTJDi11Q==}
+  prettier@3.8.5:
+    resolution: {integrity: sha512-zxcTTCedNGJM4R8sj/Cq/F0W/c4iE0afWBcBwMTRtw4WHYP9TWkYjdiH3npPRUYsXQCPR0hTU9yjovOu+E6EQA==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -1429,13 +1429,13 @@ snapshots:
       '@vue/compiler-dom': 3.5.39
       '@vue/shared': 3.5.39
 
-  '@vue/devtools-api@7.7.9':
+  '@vue/devtools-api@7.7.10':
     dependencies:
-      '@vue/devtools-kit': 7.7.9
+      '@vue/devtools-kit': 7.7.10
 
-  '@vue/devtools-kit@7.7.9':
+  '@vue/devtools-kit@7.7.10':
     dependencies:
-      '@vue/devtools-shared': 7.7.9
+      '@vue/devtools-shared': 7.7.10
       birpc: 2.9.0
       hookable: 5.5.3
       mitt: 3.0.1
@@ -1443,7 +1443,7 @@ snapshots:
       speakingurl: 14.0.1
       superjson: 2.2.6
 
-  '@vue/devtools-shared@7.7.9':
+  '@vue/devtools-shared@7.7.10':
     dependencies:
       rfdc: 1.4.1
 
@@ -1497,7 +1497,7 @@ snapshots:
       baseline-browser-mapping: 2.10.38
       caniuse-lite: 1.0.30001799
       electron-to-chromium: 1.5.378
-      node-releases: 2.0.49
+      node-releases: 2.0.50
       update-browserslist-db: 1.2.3(browserslist@4.28.4)
 
   bumpp@11.1.0:
@@ -1760,7 +1760,7 @@ snapshots:
 
   nanoid@3.3.15: {}
 
-  node-releases@2.0.49: {}
+  node-releases@2.0.50: {}
 
   only-allow@1.2.2:
     dependencies:
@@ -1776,7 +1776,7 @@ snapshots:
 
   pinia@3.0.4(vue@3.5.39):
     dependencies:
-      '@vue/devtools-api': 7.7.9
+      '@vue/devtools-api': 7.7.10
       vue: 3.5.39
 
   postcss-value-parser@4.2.0: {}
@@ -1787,11 +1787,11 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  prettier-plugin-tailwindcss@0.8.0(prettier@3.8.4):
+  prettier-plugin-tailwindcss@0.8.0(prettier@3.8.5):
     dependencies:
-      prettier: 3.8.4
+      prettier: 3.8.5
 
-  prettier@3.8.4: {}
+  prettier@3.8.5: {}
 
   proto-tailwindcss-clrs@0.0.510: {}
 
