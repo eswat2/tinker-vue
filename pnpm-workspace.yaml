@@ -8,5 +8,6 @@ allowBuilds:
   'proto-tailwindcss-clrs': true
 
 minimumReleaseAgeExclude:
-  - postcss@8.5.19
-  - proto-tailwindcss-clrs@0.0.515
+  - '@vitejs/plugin-vue@6.0.8'
+  - autoprefixer@10.5.3
+  - pinia@4.0.1
