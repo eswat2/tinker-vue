@@ -8,6 +8,7 @@ allowBuilds:
   'proto-tailwindcss-clrs': true
 
 minimumReleaseAgeExclude:
-  - '@vitejs/plugin-vue@6.0.8'
   - autoprefixer@10.5.3
-  - pinia@4.0.1
+  - pinia@4.0.2
+  - prettier-plugin-tailwindcss@0.8.1
+  - proto-tailwindcss-clrs@0.0.516
