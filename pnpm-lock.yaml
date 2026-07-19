@@ -46,8 +46,8 @@ importers:
         specifier: 0.8.1
         version: 0.8.1(prettier@3.9.5)
       proto-tailwindcss-clrs:
-        specifier: 0.0.518
-        version: 0.0.518
+        specifier: 0.0.519
+        version: 0.0.519
       tailwindcss:
         specifier: 4.3.3
         version: 4.3.3
@@ -604,8 +604,8 @@ packages:
     resolution: {integrity: sha512-Btj2BOOO83o3WyH59e8MgXsxEQVcarkUOpEYrubB0urwnN10yQ364rsiByU11nZlqWYZm05i/of7io4mzihBtQ==}
     engines: {node: '>=8'}
 
-  electron-to-chromium@1.5.392:
-    resolution: {integrity: sha512-1yQq3VQCZRwsnYc67Oc+1fge6Lwtn0hzi6zmEVkB61Zx21kTbwJAW4dFLadl5Rc1tKhG/kSpYXnfiAhu0f0a1g==}
+  electron-to-chromium@1.5.393:
+    resolution: {integrity: sha512-kiDJdIUawuEIcp9XoICKp1iTYDEbgguIPq526N1Q7jIQDeQ3CqoMx71025PI/7E48Ddtw2HuWsVjY7afEgNxmg==}
 
   emoji-regex@10.6.0:
     resolution: {integrity: sha512-toUI84YS5YmxW219erniWD0CIVOo46xGKColeNQRgOzDorgBi1v4D71/OFzgD9GO2UGKIv1C3Sp8DAn0+j5w7A==}
@@ -784,8 +784,8 @@ packages:
     resolution: {integrity: sha512-wRNIrw4DmVLKQlbgOMdkMx27Wrpzes2hh5Jtbi2bjPd+4wJstWIqP5A+lscnqbm0xxmT5Bpg8Lec5ItEBwx6BQ==}
     engines: {node: '>=18'}
 
-  nostics@1.1.4:
-    resolution: {integrity: sha512-U4FApICSLCQ0dYiN59pxUCEZC053palQXi57yLaNdMaL6TBY4C4q3qZrJKUGcor2dGv8EhEwt8y5KvU2bo2kFg==}
+  nostics@1.2.0:
+    resolution: {integrity: sha512-FGqEfhQjrvo1lL8KFifdTQiNwwQHJxC1jtYE1Rc54qF/jxONUNL+kC9gS1krX8Q65PgrQ5fCqH/I4NhWBvdSqg==}
 
   only-allow@1.2.2:
     resolution: {integrity: sha512-uxyNYDsCh5YIJ780G7hC5OHjVUr9reHsbZNMM80L9tZlTpb3hUzb36KXgW4ZUGtJKQnGA3xegmWg1BxhWV0jJA==}
@@ -881,8 +881,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  proto-tailwindcss-clrs@0.0.518:
-    resolution: {integrity: sha512-p/TKiyQyHD56fsEFOVAfCxJltmK2LgaqvBcBDNXz30hZzLammSp6ydUuSOkRJBHdZpA1aQIfZCzqw44MAGUZ/g==}
+  proto-tailwindcss-clrs@0.0.519:
+    resolution: {integrity: sha512-WRp9bw4N5UbkFU1n7siZLEx6tTD/H8vqnWCixG8rYmPs8GslgzavCptG1bqNzX8P+nx46NwAPFfEkQ0Q9fekBQ==}
     engines: {node: '>=18'}
 
   quansync@1.0.0:
@@ -1471,7 +1471,7 @@ snapshots:
     dependencies:
       baseline-browser-mapping: 2.10.43
       caniuse-lite: 1.0.30001806
-      electron-to-chromium: 1.5.392
+      electron-to-chromium: 1.5.393
       node-releases: 2.0.51
       update-browserslist-db: 1.2.3(browserslist@4.28.6)
 
@@ -1617,7 +1617,7 @@ snapshots:
 
   detect-libc@2.1.2: {}
 
-  electron-to-chromium@1.5.392: {}
+  electron-to-chromium@1.5.393: {}
 
   emoji-regex@10.6.0: {}
 
@@ -1729,7 +1729,7 @@ snapshots:
 
   node-releases@2.0.51: {}
 
-  nostics@1.1.4: {}
+  nostics@1.2.0: {}
 
   only-allow@1.2.2:
     dependencies:
@@ -1746,7 +1746,7 @@ snapshots:
   pinia@4.0.2(@vue/devtools-api@8.1.5)(vue@3.5.40):
     dependencies:
       '@vue/devtools-api': 8.1.5
-      nostics: 1.1.4
+      nostics: 1.2.0
       vue: 3.5.40
 
   postcss-value-parser@4.2.0: {}
@@ -1763,7 +1763,7 @@ snapshots:
 
   prettier@3.9.5: {}
 
-  proto-tailwindcss-clrs@0.0.518: {}
+  proto-tailwindcss-clrs@0.0.519: {}
 
   quansync@1.0.0: {}
 
