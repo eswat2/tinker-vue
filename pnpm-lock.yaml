@@ -23,7 +23,7 @@ importers:
         version: 6.0.8(vite@8.1.5(jiti@2.7.0)(yaml@2.9.0))(vue@3.5.40)
       autoprefixer:
         specifier: 10.5.4
-        version: 10.5.4(postcss@8.5.22)
+        version: 10.5.4(postcss@8.5.23)
       bumpp:
         specifier: 12.0.0
         version: 12.0.0
@@ -37,8 +37,8 @@ importers:
         specifier: 1.2.2
         version: 1.2.2
       postcss:
-        specifier: 8.5.22
-        version: 8.5.22
+        specifier: 8.5.23
+        version: 8.5.23
       prettier:
         specifier: 3.9.6
         version: 3.9.6
@@ -46,8 +46,8 @@ importers:
         specifier: 0.8.1
         version: 0.8.1(prettier@3.9.6)
       proto-tailwindcss-clrs:
-        specifier: 0.0.524
-        version: 0.0.524
+        specifier: 0.0.526
+        version: 0.0.526
       tailwindcss:
         specifier: 4.3.3
         version: 4.3.3
@@ -500,8 +500,8 @@ packages:
     peerDependencies:
       postcss: ^8.1.0
 
-  baseline-browser-mapping@2.11.0:
-    resolution: {integrity: sha512-oCu2wfipvX3AePSgmOuKkIywOu+8n9psz7hXYmk56ghpu3+7KzNIBopaOs4c9BrtdnTtW30unG9GTfHo7EwERQ==}
+  baseline-browser-mapping@2.11.1:
+    resolution: {integrity: sha512-HYXq73DDpCtNzOmrFsm9eSwCvWCql0RzqjpDzXN9EadiLJ4DNat0nsZ/Bzmy+Ud12mb4/zKDY0cQ805ZzN+i0A==}
     engines: {node: '>=6.0.0'}
     hasBin: true
 
@@ -646,8 +646,8 @@ packages:
       picomatch:
         optional: true
 
-  flatted@3.4.2:
-    resolution: {integrity: sha512-PjDse7RzhcPkIJwy5t7KPWQSZ9cAbzQXcafsetQoD7sOJRQlGikNbx7yZp2OotDnJyrDcbyRq3Ttb18iYOqkxA==}
+  flatted@3.4.3:
+    resolution: {integrity: sha512-/zipXxyO6rGvuNGDiULY9MvEGSkb2gaG4GGH4ygMi0ZZzyMHdUZBmntJmx5x1G2VuPytCwGN4xsJP6cw+sK+vQ==}
 
   fraction.js@5.3.4:
     resolution: {integrity: sha512-1X1NTtiJphryn/uLQz3whtY6jK3fTqoE3ohKs0tT+Ujr1W59oopxmoEh7Lu5p6vBaPbgoM0bzveAW4Qi5RyWDQ==}
@@ -821,6 +821,10 @@ packages:
     resolution: {integrity: sha512-KBDEIpLrvpv16pp3K0Fw+UCoZfopFjjgeB+0tA/aaThfEE74kKDLrgg603YvOWJyg3+WYtyq3xYsQWsIyZlPqQ==}
     engines: {node: ^10 || ^12 || >=14}
 
+  postcss@8.5.23:
+    resolution: {integrity: sha512-g50586zr4bZmwFiTlflMu8E0bDTb5I5gertgwAKmsdUlTQIhZtunzUlD1WSzwcVWPoAVpsrA6vlfCD7oXvRwgg==}
+    engines: {node: ^10 || ^12 || >=14}
+
   prettier-plugin-tailwindcss@0.8.1:
     resolution: {integrity: sha512-iaFMYqDsE4ffdDkn5qup0j5f2aCEBFZrdrZnvu9QKTlWx/iGPeQ4HHu7b7fCPMxeo9nwQBiOAh2nSypdFYWJkw==}
     engines: {node: '>=20.19'}
@@ -881,8 +885,8 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  proto-tailwindcss-clrs@0.0.524:
-    resolution: {integrity: sha512-4eTplSfJADB6hLB2Zf//LdJ7HgNnkV0vrxZKiVKNGCrSh3daSapaApDnGUF2gj2r06ydUAnU0DaWVSq+IPuc8Q==}
+  proto-tailwindcss-clrs@0.0.526:
+    resolution: {integrity: sha512-O48An5tO7MsbLlpzSjqX/WsNzBP7leWrCzMFqlHTlbg3Ok81Oam9VxEY8oK0rXGD4yFMGWNOQSojDTrueeEOtQ==}
     engines: {node: '>=18'}
 
   quansync@1.0.0:
@@ -1458,22 +1462,22 @@ snapshots:
 
   array-timsort@1.0.3: {}
 
-  autoprefixer@10.5.4(postcss@8.5.22):
+  autoprefixer@10.5.4(postcss@8.5.23):
     dependencies:
       browserslist: 4.28.7
       caniuse-lite: 1.0.30001806
       fraction.js: 5.3.4
       picocolors: 1.1.1
-      postcss: 8.5.22
+      postcss: 8.5.23
       postcss-value-parser: 4.2.0
 
-  baseline-browser-mapping@2.11.0: {}
+  baseline-browser-mapping@2.11.1: {}
 
   birpc@2.9.0: {}
 
   browserslist@4.28.7:
     dependencies:
-      baseline-browser-mapping: 2.11.0
+      baseline-browser-mapping: 2.11.1
       caniuse-lite: 1.0.30001806
       electron-to-chromium: 1.5.395
       node-releases: 2.0.51
@@ -1611,7 +1615,7 @@ snapshots:
       cspell-io: 10.0.1
       cspell-lib: 10.0.1
       fast-json-stable-stringify: 2.1.0
-      flatted: 3.4.2
+      flatted: 3.4.3
       semver: 7.8.5
       tinyglobby: 0.2.17
 
@@ -1645,7 +1649,7 @@ snapshots:
     optionalDependencies:
       picomatch: 4.0.5
 
-  flatted@3.4.2: {}
+  flatted@3.4.3: {}
 
   fraction.js@5.3.4: {}
 
@@ -1761,13 +1765,19 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
+  postcss@8.5.23:
+    dependencies:
+      nanoid: 3.3.16
+      picocolors: 1.1.1
+      source-map-js: 1.2.1
+
   prettier-plugin-tailwindcss@0.8.1(prettier@3.9.6):
     dependencies:
       prettier: 3.9.6
 
   prettier@3.9.6: {}
 
-  proto-tailwindcss-clrs@0.0.524: {}
+  proto-tailwindcss-clrs@0.0.526: {}
 
   quansync@1.0.0: {}
 
