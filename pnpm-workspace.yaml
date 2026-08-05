@@ -8,4 +8,14 @@ allowBuilds:
   'proto-tailwindcss-clrs': true
 
 minimumReleaseAgeExclude:
-  - proto-tailwindcss-clrs@0.0.531
+  - '@vue/compiler-core@3.5.41'
+  - '@vue/compiler-dom@3.5.41'
+  - '@vue/compiler-sfc@3.5.41'
+  - '@vue/compiler-ssr@3.5.41'
+  - '@vue/reactivity@3.5.41'
+  - '@vue/runtime-core@3.5.41'
+  - '@vue/runtime-dom@3.5.41'
+  - '@vue/server-renderer@3.5.41'
+  - '@vue/shared@3.5.41'
+  - core-js@3.50.0
+  - vue@3.5.41

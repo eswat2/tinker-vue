@@ -24,9 +24,9 @@
     "open": "open https://tinker-vue.vercel.app"
   },
   "dependencies": {
-    "core-js": "3.49.0",
+    "core-js": "3.50.0",
     "pinia": "4.0.2",
-    "vue": "3.5.40"
+    "vue": "3.5.41"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "6.0.8",
