@@ -21,6 +21,7 @@ minimumReleaseAgeExclude:
   - '@cspell/rpc@10.3.1'
   - '@cspell/strong-weak-map@10.3.1'
   - '@cspell/url@10.3.1'
+  - '@vitejs/plugin-vue@6.0.9'
   - cspell-config-lib@10.3.1
   - cspell-dictionary@10.3.1
   - cspell-gitignore@10.3.1
@@ -30,3 +31,4 @@ minimumReleaseAgeExclude:
   - cspell-lib@10.3.1
   - cspell-trie-lib@10.3.1
   - cspell@10.3.1
+  - proto-tailwindcss-clrs@0.0.548
