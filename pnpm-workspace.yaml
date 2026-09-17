@@ -17,4 +17,5 @@ minimumReleaseAgeExclude:
   - '@vue/runtime-dom@3.5.43'
   - '@vue/server-renderer@3.5.43'
   - '@vue/shared@3.5.43'
+  - prettier@3.9.8
   - vue@3.5.43
