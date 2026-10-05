@@ -9,3 +9,4 @@ allowBuilds:
 
 minimumReleaseAgeExclude:
   - postcss@8.5.29
+  - proto-tailwindcss-clrs@0.0.558
