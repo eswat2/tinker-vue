@@ -8,6 +8,15 @@ allowBuilds:
   'proto-tailwindcss-clrs': true
 
 minimumReleaseAgeExclude:
-  - '@vitejs/plugin-vue@6.0.10'
-  - prettier@3.9.10
-  - proto-tailwindcss-clrs@0.0.562
+  - '@vue/compiler-core@3.5.44'
+  - '@vue/compiler-dom@3.5.44'
+  - '@vue/compiler-sfc@3.5.44'
+  - '@vue/compiler-ssr@3.5.44'
+  - '@vue/reactivity@3.5.44'
+  - '@vue/runtime-core@3.5.44'
+  - '@vue/runtime-dom@3.5.44'
+  - '@vue/server-renderer@3.5.44'
+  - '@vue/shared@3.5.44'
+  - postcss@8.5.30
+  - proto-tailwindcss-clrs@0.0.563
+  - vue@3.5.44
